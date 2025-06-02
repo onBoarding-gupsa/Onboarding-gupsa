@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.sign-in_form{
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .625rem;
+
+  >label{
+    text-align: left;
+  }
+}
